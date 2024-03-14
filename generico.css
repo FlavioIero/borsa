@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(224, 201, 181);
+  font-family: "Hind";
+}
+
+header {
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links li:first-child {
+  margin-left: 0;
+}
+
+.navbar-links li a {
+  color:lightblue;
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  text-decoration: none;
+}
