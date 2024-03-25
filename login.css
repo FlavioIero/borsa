@@ -1,0 +1,31 @@
+
+.log-in-container {
+  background-color: transparent; /* semmai cambiarlo */
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.log-in-box {
+  background-color: transparent; /* semmai cambiarlo */
+  border: 1px solid rgb(172, 125, 55);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: max-content;
+  height: max-content;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid rgb(172, 125, 55);
+  border-radius: 10px;
+  padding: 10px;
+}
+
