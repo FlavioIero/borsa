@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="generico.css">
+    <link rel="stylesheet" href="log_in.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="index.php" class="no-underline-link">
+          <img id="logo-borsa" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Borsa_Italiana_logo.svg/375px-Borsa_Italiana_logo.svg.png" alt="logo borsa">
+        </a>      
+      </div>
+      <ul class="navbar-links">
+        <li><a href="register.php" id="nav-registrazione" class="no-underline-link">Registrati</a></li>
+        <li><a href="login.php" style="padding-right:20px" class="no-underline-link">Accedi</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="log-in-container">
+      <div class="log-in-box">
+        <form action="" method="post">
+          <table>
+            <tr>
+              <td>
+                <label for="nome">Nome</label>
+              </td>
+              <td>
+                <input type="text" id="nome" name="nome" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="cognome">Cognome</label>
+              </td>
+              <td>
+                <input type="text" id="cognome" name="cognome" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="via">Via</label>
+              </td>
+              <td>
+                <input type="text" id="via" name="via" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="n_civico">N civico</label>
+              </td>
+              <td>
+                <input type="number" id="n_civico" name="n_civico" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email</label>
+              </td>
+              <td>
+                <input type="email" id="email" name="email" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="prefisso">Prefisso</label>
+              </td>
+              <td>
+                <input type="text" id="prefisso" name="prefisso" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="telefono">Telefono</label>
+              </td>
+              <td>
+                <input type="tel" id="telefono" name="telefono" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password">Password</label>
+              </td>
+              <td>
+                <input type="password" id="password" name="password">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="submit" id="invia" value="invia">
+              </td>
+              <td>
+                <input type="reset" id="reset" name="reset">
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
